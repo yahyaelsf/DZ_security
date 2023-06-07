@@ -1,0 +1,323 @@
+:root {
+  --primary-color: #01253C;
+  --secondry-color: #e4cc2d;
+}
+body{
+    margin: 0px;
+}
+ .header {
+    background-image: url('../images/sec3.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+span{
+    color: var(--secondry-color);
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+}
+.nav-link:hover{
+    color: var(--secondry-color);
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.navbar-toggler{
+    color: #fff;
+    margin-right: 45px;
+}
+.navbar-nav {
+  margin-left: 820px;
+}
+.navbar-nav .nav-link {
+  margin-right: 35px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.navbar-brand {
+    margin-right: 20px;
+}
+.hero{
+    position: absolute;
+    top: 200px;
+    z-index: 5;
+}
+.hero h1{
+    color: var(--secondry-color);
+}
+.hero p{
+    color: #fff;
+    width: 650px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.hero a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 60px;
+    background-color: var(--secondry-color);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-top: 20px;
+}
+.title{
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+.about p{
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.about .services .item{
+    width: 95%;
+}
+.services .row{
+    margin: 0px !important;
+    padding: 0px;
+}
+.services{
+    width: 100%;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border-radius: 20px;
+    border: 1px solid #000; */
+}
+.services .item{
+    background-color: #fff;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+}
+.about .services {
+    padding: 30px 60px;
+}
+.about .item h3{
+    transform: translateY(25px);
+}
+.item h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+}
+.item p{
+    text-align: center;
+    font-size: 20px;
+     width: 90%;
+     color:  black;
+}
+.chose_us .services{
+     /* background-image: linear-gradient(to right, rgb(222, 221, 221), #ccc); */
+     background: e4cc2d;
+    padding: 40px 60px;
+}
+.chose_us .services .item {
+    height: 340px;
+    text-align: center;
+    width: 90%;
+}
+.chose_us .services .item .icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 65px;
+    text-align: center;
+    background-color: var(--secondry-color);
+    margin-top: 30px;
+    
+}
+.chose_us .services .item h3{
+    margin-top: 10px;
+}
+.chose_us .services .item p{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.what_we_do{
+    width: 100%;
+    background-image: url('../images/sec11.jfif');
+    background-size: cover;
+    object-fit: cover;
+    height: 600px;
+    margin: 0px;
+    position: relative;
+}
+.what_we_do::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+.what_we_do .title{
+    color: #fff;
+    text-align: left;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+.what_we_do  ul{
+margin-left: 100px;
+margin-top: 30px;
+position: absolute;
+    z-index: 3;
+    top: 90px;
+}
+.what_we_do li{
+    color: #fff;
+    font-size: 20px;
+     
+}
+.security_business_benfits .services{
+    background-image: linear-gradient(to right, #013E64, #01253C);
+     padding: 40px 60px;
+}
+.security_business_benfits .services .item {
+    height: 260px;
+    text-align: center;
+    width: 90%;
+}
+.security_business_benfits .services .item .icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 65px;
+    text-align: center;
+    background-color:  var(--primary-color);
+    margin-top: 30px;
+    
+}
+.security_business_benfits .services .item h3{
+    margin-top: 10px;
+}
+.security_business_benfits .services .item p{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.contact_us {
+    background:#efeded;
+    background-size: cover;
+    padding: 70px 20px;
+}
+.contact_us .image img{
+    width: 470px;
+    height: 470px;
+    border-radius: 20px;
+}
+.contact_us .form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact_us .form .title{
+    text-align: left;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+.contact_us .form form input,
+.contact_us .form form button{
+    width: 335px;
+    height: 47px;
+    border-radius: 20px;
+    border: unset;
+}
+.contact_us .form form input{
+    padding-left: 20px;
+    border: 1px solid #D3D3D3;
+     box-shadow: 2px 20px #D3D3D3;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     margin: 10px 0;
+     
+}
+.contact_us .form form button{
+    background-color:  var(--primary-color);
+    color: var(--secondry-color);
+    border: unset;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+footer{
+    height: 400px;
+    background:var(--primary-color);
+}
+footer .title{
+    color: var(--secondry-color);
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    transform: translateY(-10px);
+}
+footer li{
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+footer li p{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.footer-hero{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.footer-hero .logo{
+    display: inline-block;
+    height: 70px;
+    
+}
+.footer-hero .logo img{
+    width: 70px;
+    height: 70px;
+}
+.footer-hero .body{
+    color: #fff;
+}
+.footer-hero .body h4{
+     color: var(--secondry-color);;
+}
+footer ul{
+   margin-top: -10px;
+}
