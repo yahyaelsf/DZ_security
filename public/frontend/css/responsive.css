@@ -1,0 +1,230 @@
+@media only screen and (max-width: 470px) {
+    .chose2 .item{
+        height: max-content;
+    }
+    .rhombus-container{
+        position: relative;
+        right: 150px !important;
+    }
+    .item1{
+        flex-direction: column-reverse !important;
+        margin-bottom: 50px;
+    }
+    .item1_{
+        flex-direction: column !important;
+    }
+    .item1_ .img{
+        width: 100%  !important;
+        height: 317px;
+    }
+    .item1__, .item1_{
+        height: fit-content !important;
+    }
+    .item1__ .img{
+        width: 100%  !important;
+        height: 317px !important;
+
+    }
+    .content{height: fit-content !important;
+    padding: 50px 20px;}
+}
+@media only screen and (max-width: 600px) {
+    body{
+        /* background: red; */
+    }
+    .about_us .container .row{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+    .para{width: 100%;}
+    .shakel{
+        width: 100%;
+        margin-bottom: 130px;
+    }
+    .rhombus-container{
+        position: relative;
+        right: 65px;
+    }
+    .first,
+    .sec,
+    .third {
+        width: 160px;
+        height: 160px;
+      position: relative !important;
+    }
+    .sec .rhombus-content{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 35px;
+        left: 30px;
+    }
+    .third  .rhombus-content{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 22px;
+        left: 30px;
+    }
+    .first .rhombus-content{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 23px;
+        left: 30px;
+    }
+    .item1{
+        flex-direction: column-reverse !important;
+        margin-bottom: 50px;
+    }
+    .item1_{
+        flex-direction: column !important;
+    }
+    .item1_ .img{
+        width: 100%  !important;
+        height: 317px;
+    }
+    .item1__, .item1_{
+        height: fit-content !important;
+    }
+    .item1__ .img{
+        width: 100%  !important;
+        height: 317px !important;
+
+    }
+    .content{height: fit-content !important;
+    padding: 50px 20px;}
+}
+
+@media (max-width: 835px) and (min-width: 600px) {
+    body{
+        /* background: firebrick; */
+    }
+    .about_us .container .row{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+    .para{width: 100%;}
+    .shakel{
+        width: 100%;
+        margin-bottom: 110px;
+    }
+    .rhombus-container{
+        position: relative;
+        right: 50px;
+    }
+    .item1{
+        flex-direction: column-reverse !important;
+        margin-bottom: 50px;
+    }
+    .item1_{
+        flex-direction: column !important;
+    }
+    .item1_ .img{
+        width: 100%  !important;
+        height: 317px;
+    }
+    .item1__, .item1_{
+        height: fit-content !important;
+    }
+    .item1__ .img{
+        width: 100%  !important;
+        height: 317px !important;
+
+    }
+    .content{height: fit-content !important;
+    padding: 50px 20px;}
+}
+
+
+@media(min-width: 835px) and (max-width: 921px)  {
+    body{
+        /* background: darkcyan; */
+    }
+    .rhombus-container{
+        position: relative;
+        right: 100px;
+    }
+    .first,
+    .sec,
+    .third {
+        width: 170px;
+        height: 170px;
+      position: relative !important;
+    }
+
+    .sec .rhombus-content{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 47px;
+        left: 30px;
+    }
+    .third  .rhombus-content{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 22px;
+        left: 32px;
+    }
+    .first .rhombus-content{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 33px;
+        left: 30px;
+    }
+
+    .content {
+        width: 50%;
+        height: fit-content !important;
+    }
+    .item1 {
+        margin: 100px 0;
+    }
+}
+
+@media (min-width: 921px) and (max-width: 992px) {
+    body{
+        /* background: darkcyan; */
+    }
+    .rhombus-container{
+        position: relative;
+        right: 80px;
+    }
+    .content {
+        width: 50%;
+    }
+    .item1 {
+        margin: 50px 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body{
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body{
+        /* background: black; */
+    }
+}
+@media only screen and (max-width: 470px) {
+     .chose2 .item{
+        height: max-content !important;
+    }
+    .what_we_do li {
+    color: #fff;
+    font-size: 28px;
+
+}
+.featured_item{
+    width: 100%;
+    background-size: cover;
+
+}
+.featured_services .featured_item .content{
+    top: 237px;
+}
+}
